@@ -12,7 +12,7 @@ let r = setInterval(() => {
   yPo = Math.floor(Math.random() * ((document.querySelector("#box").offsetHeight - hovOb.offsetHeight) + 1) + 1);
   hovOb.style.top = `${yPo}px`;
   hovOb.style.left = `${xPo}px`;
-}, 170)
+}, 100)
 
 hovOb.addEventListener("click", () => {
   clearInterval(r);
